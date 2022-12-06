@@ -71,7 +71,7 @@
 	"devDependencies": {
 		"@chakra-ui/cli": "2.0.0",
 		"@chakra-ui/storybook-addon": "2.0.0",
-		"@shopify/eslint-plugin": "41.2.1",
+		"@shopify/eslint-plugin": "42.0.2",
 		"@storybook/addon-actions": "6.4.22",
 		"@storybook/addon-docs": "6.4.22",
 		"@storybook/addon-essentials": "6.4.22",
