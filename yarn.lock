@@ -3039,7 +3039,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@discoveryjs/json-ext@npm:^0.5.3":
+"@discoveryjs/json-ext@npm:^0.5.3, @discoveryjs/json-ext@npm:^0.5.7":
   version: 0.5.7
   resolution: "@discoveryjs/json-ext@npm:0.5.7"
   checksum: 2176d301cc258ea5c2324402997cf8134ebb212469c0d397591636cea8d3c02f2b3cf9fd58dcb748c7a0dade77ebdc1b10284fa63e608c033a1db52fddc69918
@@ -6690,6 +6690,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/webpack-env@npm:^1.17.0":
+  version: 1.18.0
+  resolution: "@types/webpack-env@npm:1.18.0"
+  checksum: ecf4daa31cb37d474ac0ce058d83a3cadeb9881ca8107ae93c2299eaa9954943aae09b43e143c62ccbe4288a14db00c918c9debd707afe17c3998f873eaabc59
+  languageName: node
+  linkType: hard
+
 "@types/webpack-sources@npm:*":
   version: 3.2.0
   resolution: "@types/webpack-sources@npm:3.2.0"
@@ -9364,14 +9371,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:6.5.4":
-  version: 6.5.4
-  resolution: "chromatic@npm:6.5.4"
+"chromatic@npm:6.13.1":
+  version: 6.13.1
+  resolution: "chromatic@npm:6.13.1"
+  dependencies:
+    "@discoveryjs/json-ext": ^0.5.7
+    "@types/webpack-env": ^1.17.0
   bin:
     chroma: bin/main.cjs
     chromatic: bin/main.cjs
     chromatic-cli: bin/main.cjs
-  checksum: 79e036b305407115ca1bcd62f4b754f945dcf6c8392ba2369bb34998493dc0c32c1336663f9c46da742d8ee90720edd143d41df0a6ffd6563703a794c6817929
+  checksum: 78d7eacf317641a2c98beb334b8506772e21815daf971b8f8a86655379ba4ced17caa160e1b02e1ff35a429abc858295168f8b1a24887c2fe19f3f8264402974
   languageName: node
   linkType: hard
 
@@ -21182,7 +21192,7 @@ fsevents@^1.2.7:
     "@types/react-dom": 18.0.4
     "@typescript-eslint/eslint-plugin": 5.23.0
     "@typescript-eslint/parser": 5.23.0
-    chromatic: 6.5.4
+    chromatic: 6.13.1
     cspell: 5.20.0
     dotenv-cli: 5.1.0
     eslint: 8.15.0
